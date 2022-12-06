@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/sudoku.css">
+    <title>sudoku</title>
+</head>
+<body>
+
+  <div class="disappear" id="losingDiv" >
+    <h1>you lost try again</h1>
+    <button type="button" class="button" id="tryagainBtn">try again</button>
+    <a href="../login.html"><button type="button" class="button" id="Home">Home</button></a>
+  </div>
+
+  <div class="disappear" id="winingDiv">
+    <h1>WooooooW you Won</h1>
+    <button type="button" class="button" id="playAgainBtn">Play again</button>
+    <a href="../login.html"><button type="button" class="button" id="Home">Home</button></a>
+  </div>
+
+  <section>
+    <div class="cards">
+      <div>
+        <img class="card" src="../images/pngwing.com.png"/>
+        1
+      </div>
+      <div>
+        <img class="card" src="../images/pngwing.com (3).png"/>
+        2
+      </div>
+      <div>
+        <img class="card" src="../images/pngwing.com (2).png"/>
+        3
+      </div>
+      <div>
+        <img class="card" src="../images/pngwing.com (1).png"/>
+        4
+      </div>
+      <span ><h2 id="welcomMsg"></h2></span>
+    </div>
+    
+  </section>
+ 
+  <div class="btnDiv">
+    <button class="start" type="button" title="start" id="start">start</button>
+    <p id="timer"><span id="min" >00</span>:<span id="sec">00</span></p>
+  </div> 
+
+  <div class="sudokuDiv">
+    <div class="divOfGame"></div>
+    <div class="divOfGame"></div>
+    <div class="divOfGame"></div>
+    <div class="divOfGame"></div>
+    <div class="divOfGame"></div>
+    <div class="divOfGame"></div>
+    <div class="divOfGame"></div>
+    <div class="divOfGame"></div>
+    <div class="divOfGame"></div>
+    <div class="divOfGame"></div>
+    <div class="divOfGame"></div>
+    <div class="divOfGame"></div>
+    <div class="divOfGame"></div>
+    <div class="divOfGame"></div>
+    <div class="divOfGame"></div>
+    <div class="divOfGame"></div>
+
+  </div>
+  
+  
+   
+    <script src="../javascript/sudoku.js"></script>
+</body>
+</html>
