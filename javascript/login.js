@@ -29,6 +29,6 @@ loginBTn.onclick= function(event){
     //setting the name of the player in the local storage
     localStorage.setItem("nameFromPage1", playerName.value)
     
-    window.location.href ="pages/gallerypage.html"
+    window.location.href ="pages/index.html"
 }
 
